@@ -10,6 +10,7 @@ Validate that Amazon Data Firehose can successfully deliver data to the configur
 Firehose uses an IAM role to access destination resources. Verify:
 
 ```bash
+
 aws firehose describe-delivery-stream --delivery-stream-name <STREAM_NAME> \
   --query 'DeliveryStreamDescription.Destinations[0].*.RoleARN'
 ```
