@@ -15,6 +15,7 @@ Validate Lambda-based data transformations in Amazon Data Firehose delivery stre
 
 ### 1. Lambda Function Response Format
 
+
 Every record returned from Lambda MUST include these three fields — otherwise Firehose rejects the records and treats them as transformation failures:
 
 | Field | Type | Description |
