@@ -7,6 +7,7 @@ Evaluate the overall architecture and design quality of an Amazon Data Firehose 
 
 Score each dimension 1-5 and provide recommendations:
 
+
 | Dimension | What to Evaluate |
 |-----------|-----------------|
 | Throughput Design | Is the pipeline sized for peak load + growth? |
