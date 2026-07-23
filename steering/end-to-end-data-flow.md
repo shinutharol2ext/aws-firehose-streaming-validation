@@ -16,6 +16,7 @@ Comprehensive validation of the entire Firehose pipeline from source ingestion t
 | MSK | Firehose consuming from all partitions | `DataReadFromSource.Records` |
 
 **Validation:**
+
 - `IncomingRecords > 0` — data is arriving
 - `IncomingBytes > 0` — data has content
 - `ThrottledRecords = 0` — no capacity issues
