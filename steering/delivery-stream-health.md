@@ -8,6 +8,7 @@ Validate the health of an Amazon Data Firehose delivery stream by checking inges
 ### 1. Stream Configuration Check
 Describe the delivery stream and verify:
 ```bash
+
 aws firehose describe-delivery-stream --delivery-stream-name <STREAM_NAME>
 ```
 
