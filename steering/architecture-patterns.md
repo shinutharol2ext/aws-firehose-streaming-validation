@@ -7,6 +7,7 @@ Reference guide for evaluating whether a Firehose streaming workflow follows pro
 
 ### Pattern 1: Streaming ETL to Data Lake
 ```
+
 Producers → Firehose → [Lambda Transform] → [Format Conversion: Parquet] → S3 (partitioned)
                                                                               ↓
                                                                          Athena / Spark
