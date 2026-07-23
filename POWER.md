@@ -6,6 +6,7 @@ keywords: ["firehose", "kinesis firehose", "data firehose", "delivery stream", "
 author: "stharolz"
 ---
 
+
 # Validate and Evaluate Amazon Data Firehose Streaming Workflows
 
 This power provides comprehensive evaluation and validation for Amazon Data Firehose delivery streams — from architecture assessment and workflow scoring through to operational health checks.
