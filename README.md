@@ -2,6 +2,7 @@
 
 A [Kiro Power](https://kiro.dev/docs/powers/) that gives your AI agent expert knowledge for validating and evaluating Amazon Data Firehose delivery streams end-to-end.
 
+
 ## What it does
 
 When you mention Firehose, delivery streams, or streaming pipelines, this power activates and provides:
