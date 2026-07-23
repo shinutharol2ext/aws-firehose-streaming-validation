@@ -4,6 +4,7 @@
 
 This Kiro Power does **not** collect, store, or transmit any user data. It operates entirely within your local Kiro IDE session.
 
+
 ## What This Power Does
 
 This power provides documentation-only guidance (steering files) for validating Amazon Data Firehose streaming workflows. It does not:
